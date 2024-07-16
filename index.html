@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafe - the cafe in the city">
+    <meta name="keywords" content="pasta, cafe, pizza">
+    <meta name="author" content="Cafe company">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+    <title>Cafe</title>
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="navbar__logo navbar__link">
+                    <i class="fa-solid fa-pizza-slice navbar__logo-icon"></i>
+                    <span class="navbar__logo-text">Cafe</span>
+                </a>
+                <ul class="navbar__items">
+                    <li class="navbar__item">
+                        <a href="#home" class="navbar__link">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#about" class="navbar__link">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#menu" class="navbar__link">Menu</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#booking" class="navbar__link">Booking</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#team" class="navbar__link">Out team</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#blog" class="navbar__link">Blog</a>
+                    </li>
+                </ul>
+                <button class="navbar__item navbar__toggle navbar__toggle--open">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </button>
+                <button class="navbar__item navbar__toggle navbar__toggle--close">
+                    <i class="fa-sharp fa-solid fa-times"></i>
+                </button>
+            </nav>
+            <div class="header__banner">
+                <h1 class="header__banner-heading">Premium Pasta & Pizza Cafe</h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#booking" class="btn btn--big">Book now</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <a href="#" class="up-btn flex"><i class="fa-solid fa-arrow-up"></i></a>
+        <section class="section about" id="about">
+            <h2 class="section__title">Start ordering now!</h2>
+            <p class="section__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae officia nihil veniam in?</p>
+            <div class="flex container">
+                <div class="flex-item">
+                    <i class="fa-solid fa-burger about-item__icon"></i>
+                    <h3 class="about-item__title">Quality food</h3>
+                    <p class="about-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dignissimos corrupti vitae?</p>
+                </div>
+                <div class="flex-item">
+                    <i class="fa-solid fa-truck about-item__icon"></i>
+                    <h3 class="about-item__title">Quick deliviry</h3>
+                    <p class="about-item__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem eligendi magnam ipsam dolorem?</p>
+                </div>
+                <div class="flex-item">
+                    <i class="fa-solid fa-qrcode about-item__icon"></i>
+                    <h3 class="about-item__title">Easy order</h3>
+                    <p class="about-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, vero earum.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section menu" id="menu">
+            <h2 class="section__title">Popular dishes</h2>
+            <p class="section__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae officia nihil veniam in?</p>
+            <div class="flex">
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img class="menu-item__img full-size" src="images/food-1.jpg" alt="Dishes">
+                        <h3 class="menu-item__title">Pizza Victoria</h3>
+                        <div class="menu-item__price">$26</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img class="menu-item__img full-size" src="images/food-2.jpg" alt="Dishes">
+                        <h3 class="menu-item__title">2 dish</h3>
+                        <div class="menu-item__price">$16</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img class="menu-item__img full-size" src="images/food-3.jpg" alt="Dishes">
+                        <h3 class="menu-item__title">3 dish</h3>
+                        <div class="menu-item__price">$34</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img class="menu-item__img full-size" src="images/food-4.jpg" alt="Dishes">
+                        <h3 class="menu-item__title">4 dish</h3>
+                        <div class="menu-item__price">$6</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img class="menu-item__img full-size" src="images/food-5.jpg" alt="Dishes">
+                        <h3 class="menu-item__title">5 dish</h3>
+                        <div class="menu-item__price">$19</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="menu-item">
+                        <img class="menu-item__img full-size" src="images/food-6.jpg" alt="Dishes">
+                        <h3 class="menu-item__title">6 dish</h3>
+                        <div class="menu-item__price">$42</div>
+                        <button class="btn">buy now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section booking" id="booking">
+            <h2 class="section__title">Book table</h2>
+            <p class="section__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae officia nihil veniam in?</p>
+            <div class="flex containter">
+                <div class="flex-item">
+                    <div class="booking__img-wrapper full-size">
+                        <img class="booking__img full-size" src="images/cafe.jpg" alt="Cafe">
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <form action="#" class="booking-form flex">
+                        <label for="name">Name:</label>
+                        <input class="booking-form__input" type="text" id="name" placeholder="Enter your name">
+
+                        <label for="email">Email:</label>
+                        <input class="booking-form__input" type="email" id="email" placeholder="Enter your email">
+
+                        <label for="date">Date:</label>
+                        <input class="booking-form__input" type="date" id="date">
+
+                        <label for="time">Time:</label>
+                        <input class="booking-form__input" type="time" id="time">
+
+                        <button class="btn" type="submit">Book</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="section team" id="team">
+            <h2 class="section__title">Our team</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid itaque non!</p>
+            <div class="flex container">
+                <div class="flex-item">
+                    <img class="team-item__img full-size" src="images/team-01.png" alt="Cook">
+                    <div class="team-item__desc">
+                        <h3 class="team-item__name">Mike Stone</h3>
+                        <small>Chief</small>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <img class="team-item__img full-size" src="images/team-02.png" alt="Cook">
+                    <div class="team-item__desc">
+                        <h3 class="team-item__name">Casey Ryback</h3>
+                        <small>Chief</small>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <img class="team-item__img full-size" src="images/team-03.png" alt="Cook">
+                    <div class="team-item__desc">
+                        <h3 class="team-item__name">Melissa Hart</h3>
+                        <small>Chief</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section review" id="review">
+            <h2 class="section__title">Our Clients Say</h2>
+            <p class="section__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam officia temporibus vero!</p>
+            <div class="flex container">
+                <div class="flex-item">
+                    <div class="review-item">
+                        <img class="review-item__img" src="images/review_01.jpg" alt="Review">
+                        <div class="review-item__name">Suzanne Kelly</div>
+                        <div class="review-item__score">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="review-item">
+                        <img class="review-item__img" src="images/review_02.jpg" alt="Review">
+                        <div class="review-item__name">Leonard Hofstadter</div>
+                        <div class="review-item__score">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam corrupti temporibus doloribus cupiditate aperiam libero.</p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="review-item">
+                        <img class="review-item__img" src="images/review_03.jpg" alt="Review">
+                        <div class="review-item__name">Jennifer Hempfield</div>
+                        <div class="review-item__score">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo non ullam deserunt!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section blog" id="blog">
+            <h2 class="section__title">Last news</h2>
+            <p class="section__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit mollitia nostrum at.</p>
+            <div class="flex container">
+                <div class="flex-item">
+                    <div class="blog-item">
+                        <img class="blog-item__img full-size" src="images/food-7.jpg" alt="News">
+                        <div class="blog-item__text">
+                            <time class="blog-item__date" datetime="2024-02-15 08:00">Fabruary 15, 2024</time>
+                            <h3 class="blog-item__heading">Lorem ipsum dolor sit amet.</h3>
+                            <p class="blog-item__intro">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, nulla.</p>
+                            <a class="btn" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="blog-item">
+                        <img class="blog-item__img full-size" src="images/food-8.jpg" alt="News">
+                        <div class="blog-item__text">
+                            <time class="blog-item__date" datetime="2024-02-15 08:00">Fabruary 15, 2024</time>
+                            <h3 class="blog-item__heading">Lorem ipsum dolor sit amet.</h3>
+                            <p class="blog-item__intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam recusandae sit autem.</p>
+                            <a class="btn" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="blog-item">
+                        <img class="blog-item__img full-size" src="images/food-9.jpg" alt="News">
+                        <div class="blog-item__text">
+                            <time class="blog-item__date" datetime="2024-02-15 08:00">Fabruary 15, 2024</time>
+                            <h3 class="blog-item__heading">Lorem ipsum dolor sit amet.</h3>
+                            <p class="blog-item__intro">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                            <a class="btn" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top flex container">
+            <div class="flex-item footer-item">
+                <h3 class="footer_heading">
+                    <i class="fa-solid fa-pizza-slice"></i> Cafe
+                </h3>
+                <p class="footer__desc"><i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i></p>
+            </div>
+            <div class="flex-item footer-item">
+                <h3 class="footer_heading">
+                    <i class="fa-solid fa-location-dot"></i> Address
+                </h3>
+                <address class="footer__desc">
+                    Road Avenu, 123, Philadelfia <br>
+                    US
+                </address>
+            </div>
+            <div class="flex-item footer-item">
+                <h3 class="footer_heading">
+                    <i class="fa-solid fa-phone-volume"></i> Phone
+                </h3>
+                <address class="footer__desc">
+                    +1 123-45-67 <br>
+                    +1 890-12-34
+                </address>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <small>&copy;Cafe, All rights reserved. 2024</small>
+        </div>
+    </footer>
+</body>
+</html>
